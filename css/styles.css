@@ -1,0 +1,189 @@
+:root {
+  --iris: #4d5ae5;
+  --nv: #2e2f42;
+  --cloud: #f4f4fd;
+  --wht: #ffffff;
+  --slt: #434455;
+  --ocean: #404bbf;
+  --font-title: Raleway, sans-serif;
+  --font-reg: Roboto, sans-serif;
+}
+
+.list {
+  list-style: none;
+}
+
+.link {
+  text-decoration: none;
+}
+
+body {
+  font-family: var(--font-reg);
+  color: var(--slt);
+  background-color: var(--wht);
+}
+
+/* ======COMPONENT====== */
+.logo {
+  color: var(--iris);
+  font-family: var(--font-title);
+  font-size: 18px;
+  font-weight: 800;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+
+.logo-studio-header {
+  color: var(--nv);
+}
+
+.logo-studio-footer {
+  color: var(--cloud);
+}
+
+.contact {
+  color: var(--slt);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: 0.32px;
+}
+
+.text {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: 0.32px;
+  color: var(--slt);
+}
+
+.text-footer {
+  color: var(--cloud);
+}
+
+.ot-list-title {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: var(--nv);
+}
+/* ======/COMPONENT====== */
+/* ======HEADER====== */
+.nav {
+  color: var(--nv);
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.32px;
+}
+
+.nav-item {
+  color: var(--nv);
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.32px;
+}
+
+.nav-item:hover,
+.nav-item:focus {
+  color: var(--ocean);
+}
+
+.contact-item {
+  color: var(--slt);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+
+.contact-item:hover,
+.contact-item:focus {
+  color: var(--ocean);
+}
+/* ======/HEADER====== */
+/* ======FOOTER====== */
+.footer {
+  background-color: var(--nv);
+}
+/* ======/FOOTER====== */
+/* ======STUDIO====== */
+.hero {
+  background-color: var(--nv);
+}
+
+.hero-title {
+  color: var(--wht);
+  font-size: 56px;
+  line-height: 1.07;
+  text-align: center;
+  letter-spacing: 0.02em;
+}
+
+.hero-btn {
+  background-color: var(--iris);
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: var(--wht);
+  cursor: pointer;
+}
+
+.hero-btn:hover,
+.hero-btn:focus {
+  background-color: var(--ocean);
+}
+
+.advantages-item-title {
+  color: var(--nv);
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+}
+
+.wawd-title {
+  color: var(--nv);
+  text-align: center;
+  font-weight: 500;
+  font-size: 36px;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+}
+
+.oteam {
+  background-color: var(--cloud);
+}
+
+.ot-list-item {
+  background-color: var(--wht);
+}
+
+/* ======/STUDIO====== */
+/* ======PORTFOLIO====== */
+.filter-item-btn {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: var(--iris);
+  background-color: var(--cloud);
+  cursor: pointer;
+}
+
+.filter-item-btn:hover,
+.filter-item-btn:focus {
+  color: var(--wht);
+  background-color: var(--ocean);
+}
+
+/* ======/PORTFOLIO====== */
