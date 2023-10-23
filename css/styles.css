@@ -37,6 +37,10 @@ body {
   background-color: var(--wht);
 }
 
+.conteiner {
+  width: 1158px;
+}
+
 /* ======COMPONENT====== */
 .logo {
   color: var(--iris);
@@ -46,6 +50,8 @@ body {
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
+  display: block;
+  margin: 25.5px 76px 25.5px 156px;
 }
 
 .logo-studio-header {
@@ -90,7 +96,11 @@ img {
 }
 /* ======/COMPONENT====== */
 /* ======HEADER====== */
-.nav {
+.page-header {
+  display: flex;
+}
+.page-nav {
+  display: block;
   color: var(--nv);
   font-size: 16px;
   font-weight: 500;
@@ -138,6 +148,7 @@ img {
 .hero-title {
   color: var(--wht);
   font-size: 56px;
+  font-weight: 700;
   line-height: 1.07;
   text-align: center;
   letter-spacing: 0.02em;
