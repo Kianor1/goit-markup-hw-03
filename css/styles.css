@@ -37,7 +37,7 @@ body {
   background-color: var(--wht);
 }
 
-.conteiner {
+.container {
   width: 1158px;
   margin: 0 auto;
   padding: 0 15px;
@@ -125,7 +125,7 @@ img {
 
 .nav-list-item {
   display: block;
-  margin: 24px 0;
+  padding: 24px 0;
 }
 
 .nav-item {
