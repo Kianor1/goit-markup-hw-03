@@ -150,6 +150,10 @@ img {
   margin-left: 332px;
 }
 
+.contact-list-item {
+  display: block;
+}
+
 .contact-item {
   color: var(--slt);
   font-size: 16px;
