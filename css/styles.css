@@ -188,6 +188,16 @@ img {
 /* ======FOOTER====== */
 .footer {
   background-color: var(--nv);
+  padding: 100px 0;
+}
+
+.logo-footer {
+  display: inline-block;
+  margin-bottom: 16px;
+}
+
+.text-footer {
+  max-width: 264px;
 }
 /* ======/FOOTER====== */
 /* ======STUDIO====== */
