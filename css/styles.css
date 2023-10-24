@@ -51,7 +51,6 @@ body {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   display: block;
-  margin: 25.5px 76px 25.5px 156px;
 }
 
 .logo-studio-header {
@@ -101,11 +100,26 @@ img {
 }
 .page-nav {
   display: block;
+  display: flex;
   color: var(--nv);
   font-size: 16px;
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.32px;
+}
+
+.logo-header {
+  margin: 24px 76px 24px 156px;
+}
+
+.nav-list {
+  display: flex;
+  gap: 40px;
+}
+
+.nav-list-item {
+  display: block;
+  margin: 24px 0;
 }
 
 .nav-item {
@@ -119,6 +133,15 @@ img {
 .nav-item:hover,
 .nav-item:focus {
   color: var(--ocean);
+}
+.contact {
+  display: block;
+}
+
+.contact-list {
+  display: flex;
+  gap: 40px;
+  margin: 24px 156px 24px 332px;
 }
 
 .contact-item {
