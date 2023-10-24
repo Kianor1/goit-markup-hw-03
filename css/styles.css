@@ -286,14 +286,35 @@ img {
 }
 
 /* ====/wawd==== */
+/* ====oteam==== */
 .oteam {
   background-color: var(--cloud);
+  padding: 120px 0;
+}
+
+.ot-list {
+  display: flex;
+  gap: 24px;
 }
 
 .ot-list-item {
   background-color: var(--wht);
+  width: calc((100% - 72px) / 4);
+  border-radius: 0px 0px 4px 4px;
 }
 
+.ot-item-name {
+  padding: 32px 0;
+}
+
+.ot-list-title {
+  text-align: center;
+  margin-bottom: 8px;
+}
+
+.ot-list-discr {
+  text-align: center;
+}
 /* ======/STUDIO====== */
 /* ======PORTFOLIO====== */
 .filter-list {
