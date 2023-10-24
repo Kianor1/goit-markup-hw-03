@@ -39,6 +39,8 @@ body {
 
 .conteiner {
   width: 1158px;
+  margin: 0 auto;
+  padding: 0 15px;
 }
 
 /* ======COMPONENT====== */
@@ -95,12 +97,16 @@ img {
 }
 /* ======/COMPONENT====== */
 /* ======HEADER====== */
+.header {
+  border-bottom: 1px solid #e7e9fc;
+}
 .page-header {
   display: flex;
 }
 .page-nav {
   display: block;
   display: flex;
+  align-items: center;
   color: var(--nv);
   font-size: 16px;
   font-weight: 500;
@@ -109,7 +115,7 @@ img {
 }
 
 .logo-header {
-  margin: 24px 76px 24px 156px;
+  margin-right: 76px;
 }
 
 .nav-list {
